@@ -59,28 +59,28 @@ function kelvinACelsius(grados) {
 function kelvinAFahrenheit(grados) {
     return (grados - 273.15) * 9/5 + 32;
 }
-function celsiusARankine(celsius) {  
+function celsiusARankine(grados) {  
     return (celsius + 273.15) * 9/5;
 }
 
 
-function kelvinARankine(kelvin) {
+function kelvinARankine(grados) {
     return kelvin * 9/5;
 }
 
-function fahrenheitARankine(fahrenheit) {
+function fahrenheitARankine(grados) {
     return fahrenheit + 459.67;
 }
-function rankineACelsius(rankine) {
+function rankineACelsius(grados) {
     return (rankine - 491.67) * 5/9;
 }
 
 
-function rankineAKelvin(rankine) {
+function rankineAKelvin(grados) {
     return rankine * 5/9;
 }
 
 
-function rankineAFahrenheit(rankine) {
+function rankineAFahrenheit(grados) {
     return rankine - 459.67;
 }
