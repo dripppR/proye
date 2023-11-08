@@ -30,6 +30,7 @@ function conversor(){
     }    else if (tipoTemperatura === 'rankine' && tipoTemperaturaDeseada === 'fahrenheit') {
         resultado = rankineAFahrenheit(grados);
     } else {
+        mostrarAviso();
         resultado = 'Por favor, selecciona tipos de temperatura válidos.';
     }
 
@@ -82,5 +83,8 @@ function rankineAKelvin(grados) {
 
 
 function rankineAFahrenheit(grados) {
-    return grados - 459.67;
+     return grados - 459.67;
 }
+function mostrarAviso() {
+    alert("Por favor, procura utilizar diferentes escalas de temperatura");
+  }
