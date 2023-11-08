@@ -7,15 +7,27 @@ function conversor(){
 
     if (tipoTemperatura === 'celsius' && tipoTemperaturaDeseada === 'fahrenheit') {
         resultado = celsiusAFahrenheit(grados);
-    } else if (tipoTemperatura === 'celsius' && tipoTemperaturaDeseada === 'kelvin') {
+    } else if (tipoTemperatura === 'celsius' && tipoTemperaturaDeseada === 'rankine') {
+        resultado = celsiusAKelvin(grados);
+     } else if (tipoTemperatura === 'celsius' && tipoTemperaturaDeseada === 'kelvin') {
         resultado = celsiusAKelvin(grados);
     } else if (tipoTemperatura === 'fahrenheit' && tipoTemperaturaDeseada === 'celsius') {
         resultado = fahrenheitACelsius(grados);
     } else if (tipoTemperatura === 'fahrenheit' && tipoTemperaturaDeseada === 'kelvin') {
         resultado = fahrenheitAKelvin(grados);
+    } else if (tipoTemperatura === 'fahrenheit' && tipoTemperaturaDeseada === 'rankine') {
+        resultado = fahrenheitAKelvin(grados);
     } else if (tipoTemperatura === 'kelvin' && tipoTemperaturaDeseada === 'celsius') {
         resultado = kelvinACelsius(grados);
     } else if (tipoTemperatura === 'kelvin' && tipoTemperaturaDeseada === 'fahrenheit') {
+        resultado = kelvinAFahrenheit(grados);
+        } else if (tipoTemperatura === 'kelvin' && tipoTemperaturaDeseada === 'rankine') {
+        resultado = kelvinAFahrenheit(grados);
+        else if (tipoTemperatura === 'rankine' && tipoTemperaturaDeseada === 'celsius') {
+        resultado = kelvinAFahrenheit(grados);
+        else if (tipoTemperatura === 'rankine' && tipoTemperaturaDeseada === 'kelvin') {
+        resultado = kelvinAFahrenheit(grados);
+        else if (tipoTemperatura === 'rankine' && tipoTemperaturaDeseada === 'fahrenheit') {
         resultado = kelvinAFahrenheit(grados);
     } else {
         resultado = 'Por favor, selecciona tipos de temperatura válidos.';
