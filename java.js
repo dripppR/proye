@@ -8,27 +8,27 @@ function conversor(){
     if (tipoTemperatura === 'celsius' && tipoTemperaturaDeseada === 'fahrenheit') {
         resultado = celsiusAFahrenheit(grados);
     } else if (tipoTemperatura === 'celsius' && tipoTemperaturaDeseada === 'rankine') {
-        resultado = celsiusAKelvin(grados);
+        resultado = celsiusARankine(grados);
      } else if (tipoTemperatura === 'celsius' && tipoTemperaturaDeseada === 'kelvin') {
-        resultado = celsiusAKelvin(grados);
+        resultado = celsiusitAKelvin(grados);
     } else if (tipoTemperatura === 'fahrenheit' && tipoTemperaturaDeseada === 'celsius') {
         resultado = fahrenheitACelsius(grados);
     } else if (tipoTemperatura === 'fahrenheit' && tipoTemperaturaDeseada === 'kelvin') {
         resultado = fahrenheitAKelvin(grados);
     } else if (tipoTemperatura === 'fahrenheit' && tipoTemperaturaDeseada === 'rankine') {
-        resultado = fahrenheitAKelvin(grados);
+        resultado = fahrenheitARankine(grados);
     } else if (tipoTemperatura === 'kelvin' && tipoTemperaturaDeseada === 'celsius') {
         resultado = kelvinACelsius(grados);
     } else if (tipoTemperatura === 'kelvin' && tipoTemperaturaDeseada === 'fahrenheit') {
         resultado = kelvinAFahrenheit(grados);
         } else if (tipoTemperatura === 'kelvin' && tipoTemperaturaDeseada === 'rankine') {
-        resultado = kelvinAFahrenheit(grados);
+        resultado = kelvinARankine(grados);
         else if (tipoTemperatura === 'rankine' && tipoTemperaturaDeseada === 'celsius') {
-        resultado = kelvinAFahrenheit(grados);
+        resultado = rankineACelsius(grados);
         else if (tipoTemperatura === 'rankine' && tipoTemperaturaDeseada === 'kelvin') {
-        resultado = kelvinAFahrenheit(grados);
+        resultado = rankineAKelvin(grados);
         else if (tipoTemperatura === 'rankine' && tipoTemperaturaDeseada === 'fahrenheit') {
-        resultado = kelvinAFahrenheit(grados);
+        resultado = rankineAFahrenheit(grados);
     } else {
         resultado = 'Por favor, selecciona tipos de temperatura válidos.';
     }
