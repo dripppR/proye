@@ -41,21 +41,17 @@
                 </select>
             </div>
     
-            <button type="button" id="btn" class="btn btn-primary" onclick="conversor()">Convertir</button>
-     <script>
-                function mostrarAviso() {
-                  Swal.fire({
-                    title: '¡Aviso!',
-                    text: 'Procure utilizar dos escalas de temperatura distintas',
-                    icon: 'warning',
-                    confirmButtonText: 'Entendido'
-                  });
-                }
-                </script>
+            <button type="button" id="btn" class="btn btn-primary" onclick="conversor()" onclick="verificarCampo()">Convertir</button>
+            <div id="mensajeAviso"></div>
+            
             <p id="res" class="form-label">Resultado: </p>
+        
         </form>
-    </div>
+    
+</div>
+    
     <script src="./java.js" async defer></script>
+
 </body>
 
 
