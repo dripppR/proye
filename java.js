@@ -10,7 +10,7 @@ function conversor(){
     } else if (tipoTemperatura === 'celsius' && tipoTemperaturaDeseada === 'rankine') {
         resultado = celsiusARankine(grados);
      } else if (tipoTemperatura === 'celsius' && tipoTemperaturaDeseada === 'kelvin') {
-        resultado = celsiusitAKelvin(grados);
+        resultado = celsiusAKelvin(grados);
     } else if (tipoTemperatura === 'fahrenheit' && tipoTemperaturaDeseada === 'celsius') {
         resultado = fahrenheitACelsius(grados);
     } else if (tipoTemperatura === 'fahrenheit' && tipoTemperaturaDeseada === 'kelvin') {
