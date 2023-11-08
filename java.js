@@ -89,3 +89,10 @@ function rankineAFahrenheit(grados) {
 function mostrarAviso() {
     alert("Por favor, procura utilizar diferentes escalas de temperatura");
   }
+function verificarCampo() {
+    var valorIngresado = document.getElementById('gradosS').value;
+
+    if (valorIngresado === "") {
+        document.getElementById('mensajeAviso').innerText = "Por favor, ingrese un valor.";
+    } else {
+        document.getElementById('mensajeAviso').innerText = ""; // Limpiar el mensaje si hay un valor ingresado
