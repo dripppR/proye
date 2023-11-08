@@ -47,3 +47,15 @@ function kelvinACelsius(grados) {
 function kelvinAFahrenheit(grados) {
     return (grados - 273.15) * 9/5 + 32;
 }
+function celsiusToRankine(celsius) {  
+    return (celsius + 273.15) * 9/5;
+}
+
+
+function kelvinToRankine(kelvin) {
+    return kelvin * 9/5;
+}
+
+function fahrenheitToRankine(fahrenheit) {
+    return fahrenheit + 459.67;
+}
