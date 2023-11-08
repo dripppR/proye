@@ -60,27 +60,27 @@ function kelvinAFahrenheit(grados) {
     return (grados - 273.15) * 9/5 + 32;
 }
 function celsiusARankine(grados) {  
-    return (celsius + 273.15) * 9/5;
+    return (grados + 273.15) * 9/5;
 }
 
 
 function kelvinARankine(grados) {
-    return kelvin * 9/5;
+    return grados * 9/5;
 }
 
 function fahrenheitARankine(grados) {
-    return fahrenheit + 459.67;
+    return grados + 459.67;
 }
 function rankineACelsius(grados) {
-    return (rankine - 491.67) * 5/9;
+    return (grados - 491.67) * 5/9;
 }
 
 
 function rankineAKelvin(grados) {
-    return rankine * 5/9;
+    return grados * 5/9;
 }
 
 
 function rankineAFahrenheit(grados) {
-    return rankine - 459.67;
+    return grados - 459.67;
 }
