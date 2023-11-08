@@ -95,6 +95,6 @@ function verificarCampo() {
 
     if (valorIngresado === "") {
         alert("Por favor, ingrese un valor.");
-    }
-    }
+    } 
+}
 
