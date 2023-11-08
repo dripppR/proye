@@ -91,8 +91,10 @@ function mostrarAviso() {
   }
 
 function verificarCampo() {
-    var valorIngresado = document.getElementById('gradosS').value;
+    let valorIngresado = document.getElementById('gradosS').value;
 
     if (valorIngresado === "") {
         alert("Por favor, ingrese un valor.");
     }
+    }
+
