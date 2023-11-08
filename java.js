@@ -89,6 +89,7 @@ function rankineAFahrenheit(grados) {
 function mostrarAviso() {
     alert("Por favor, procura utilizar diferentes escalas de temperatura");
   }
+
 function verificarCampo() {
     var valorIngresado = document.getElementById('gradosS').value;
 
