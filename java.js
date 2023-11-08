@@ -59,3 +59,16 @@ function kelvinToRankine(kelvin) {
 function fahrenheitToRankine(fahrenheit) {
     return fahrenheit + 459.67;
 }
+function rankineToCelsius(rankine) {
+    return (rankine - 491.67) * 5/9;
+}
+
+
+function rankineToKelvin(rankine) {
+    return rankine * 5/9;
+}
+
+
+function rankineToFahrenheit(rankine) {
+    return rankine - 459.67;
+}
