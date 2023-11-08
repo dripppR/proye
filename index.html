@@ -42,7 +42,16 @@
             </div>
     
             <button type="button" id="btn" class="btn btn-primary" onclick="conversor()">Convertir</button>
-    
+     <script>
+                function mostrarAviso() {
+                  Swal.fire({
+                    title: '¡Aviso!',
+                    text: 'Procure utilizar dos escalas de temperatura distintas',
+                    icon: 'warning',
+                    confirmButtonText: 'Entendido'
+                  });
+                }
+                </script>
             <p id="res" class="form-label">Resultado: </p>
         </form>
     </div>
